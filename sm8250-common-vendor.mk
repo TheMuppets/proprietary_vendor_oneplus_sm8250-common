@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/oneplus/sm8250-common/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/oneplus/sm8250-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
-    vendor/oneplus/sm8250-common/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oneplus/sm8250-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/100ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/100ms_RTP.bin \
