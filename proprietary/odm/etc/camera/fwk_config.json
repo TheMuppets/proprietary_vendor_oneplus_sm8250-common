@@ -1,5 +1,6 @@
 {
     "default": {
+        "feature_omoji_enable": true,
         "feature_cts_enable": true,
         "feature_resolution_enable": true,
         "skip_rus_check_list": [
@@ -239,9 +240,10 @@
         ]
     },
     "com.whatsapp": {
-        "thirdPartyAppWidthLimitForCam1API2": 1920,
-        "thirdPartyAppHeightLimitForCam1API2": 1080,
-        "thirdPartyAppLimitPicture": true
+        "limitSizeForSurfaceCam0": true,
+        "limitWidthForSurfaceCam0": 1920,
+        "limitHeightForSurfaceCam0": 1080,
+        "app_enable_rio": true
     },
     "org.codeaurora.ims": {
         "isFreeDomEvictionPackge": true
