@@ -262,7 +262,7 @@
 
     <!--Rotation animation boost-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
-        <!-- GPU MIN_FREQUENCY resource opcode,value-->
+        <!-- GPU_MIN_POWER_LEVEL resource opcode,value-->
         <!-- Type="", Rotation animation boost -->
 
         <Config

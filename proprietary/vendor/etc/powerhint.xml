@@ -719,6 +719,12 @@
             Id="0x00001350" Enable="true" Timeout="5000" Target="kona"
             Resources="0x40800100, 1785, 0x40800000, 2419, 0x40C20000, 10, 0x40C1C000, 20,
             0x43000000, 68, 0x43400000, 14"/>
+
+        <!-- PERF_LOCK_POWER_HINT_ID_ZOOM_CHANGE -->
+        <Config
+            Id="0X0000134A" Enable="true" Timeout="0" Target="kona"
+            Resources="0x43000000, 29, 0x41000000, 0x3, 0x41000100, 0x4, 0x40CA8000, 0x2, 0x40C20000, 0x14, 0x40C1C000, 0x1E,
+            0x40800000, 0x566"/>
         <!-- ONEPLUS_VENDOR_EDITOR END-->
     </Powerhint>
 </HintConfigs>

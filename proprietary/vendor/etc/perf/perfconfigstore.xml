@@ -32,6 +32,7 @@ property Name is called. -->
                 <Prop Name="ro.lmk.enable_watermark_check" Value="true" />
                 <Prop Name="ro.lmk.enable_preferred_apps" Value="true" />
                 <Prop Name="ro.lmk.use_new_strategy_dup" Value="true" />
+                <Prop Name="ro.lmk.psi_scrit_complete_stall_ms" Value="150" />
                 <Prop Name="ro.lmk.super_critical" Value="701" />
                 <Prop Name="ro.lmk.direct_reclaim_pressure" Value="45" />
                 <Prop Name="ro.lmk.reclaim_scan_threshold" Value="0" />
@@ -39,7 +40,7 @@ property Name is called. -->
                 <Prop Name="vendor.perf.performancemode.support" Value="true" />
                 <!--#ifdef  OPLUS_FEATURE_PERFORMANCE-->
                 <!--MoSiTing@ANDROID.PERFORMANCE, 2020/07/09, Modify for Increase cached app limit -->
-                <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="128" />
+                <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="60" />
                 <!--#endif /* OPLUS_FEATURE_PERFORMANCE */ -->
                 <Prop Name="ro.vendor.at_library" Value="libqti-at.so" />
                 <Prop Name="vendor.perf.topAppRenderThreadBoost.enable" Value="false" />

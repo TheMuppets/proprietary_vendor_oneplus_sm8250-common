@@ -3,6 +3,7 @@
         "feature_omoji_enable": true,
         "feature_cts_enable": true,
         "feature_resolution_enable": true,
+        "needFixFilterIssue": true,
         "skip_rus_check_list": [
             "android.camera.cts",
             "com.android.cts.verifier",

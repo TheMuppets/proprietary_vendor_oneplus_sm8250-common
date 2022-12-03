@@ -14,7 +14,6 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
     { "path":"/vendor/firmware_mnt/image/haventkn.mbn"},
     { "path":"/vendor/firmware/image/haventkn.mbn"},
     { "path":"/vendor/firmware_mnt/image/tzsc.mbn"},
-    { "path":"/vendor/firmware_mnt/image/rtice.mbn"},
-    { "path":"/vendor/firmware_mnt/image/rtic.mbn"}
+    { "path":"/vendor/firmware_mnt/image/rtice.mbn"}
   ]
 }

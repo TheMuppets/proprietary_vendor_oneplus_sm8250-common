@@ -28,7 +28,12 @@
 #
 
 baseband=`getprop ro.baseband`
-if [ "$baseband" = "mdm" ] || [ "$baseband" = "mdm2" ]; then
-	start vendor.mdm_helper
+wifionly=`getprop ro.carrier`
+if [ "$wifionly" = "wifi-only" ]; then
+     echo "wifi-only no modem"
+else
+     if [ "$baseband" = "mdm" ] || [ "$baseband" = "mdm2" ]; then
+          start vendor.mdm_helper
+     fi
 fi
 
