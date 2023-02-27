@@ -238,13 +238,14 @@
         <!-- SCHED_SYNC_HINT_ENABLE resource opcode, value -->
         <!-- SCHED_FORCE_LB_ENABLE opcode, value-->
         <!-- Type="", Package Install boost -->
-
+        <!-- remove package install boost
         <Config
             Id="0x00001088" Enable="true" Target="kona"
             Resources="0x40C00000, 0x2, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x40800000,0xFFF, 0x40800100,0xFFF, 0x40800200, 0xFFF, 0x40CA0000, 0,
                        0x40CCC000, 0" />
-
+        -->
+		
     <!--Rotation latency boost-->
         <!-- SCHEDBOOST resource opcode, value-->
         <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
