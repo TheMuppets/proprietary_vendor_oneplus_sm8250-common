@@ -4,6 +4,7 @@
         "feature_cts_enable": true,
         "feature_resolution_enable": true,
         "needFixFilterIssue": true,
+        "feature_enable_fwk_timer": false,
         "skip_rus_check_list": [
             "android.camera.cts",
             "com.android.cts.verifier",

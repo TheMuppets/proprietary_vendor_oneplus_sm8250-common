@@ -111,6 +111,14 @@ limitations under the License.
             <Limit name="measured-frame-rate-320x240" range="18-40" />
             <Limit name="measured-frame-rate-720x480" range="6-22" />
         </MediaCodec>
+        <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+        <!-- ziran.deng@MM.MediaServer, 2023/7/11, -->
+        <MediaCodec name="c2.android.av1.encoder" type="video/av01" update="true">
+            <Limit name="measured-frame-rate-320x240" range="40-88" />
+            <Limit name="measured-frame-rate-720x480" range="18-40" />
+            <Limit name="measured-frame-rate-1280x720" range="10-22" />
+        </MediaCodec>
+        <!-- #endif //OPLUS_BUG_COMPATIBILITY -->
     </Encoders>
     <Decoders>
         <MediaCodec name="OMX.qcom.video.decoder.avc" type="video/avc" update="true">
@@ -202,8 +210,8 @@ limitations under the License.
             <Limit name="measured-frame-rate-1920x1080" range="14-31" />
         </MediaCodec>
         <MediaCodec name="c2.android.hevc.decoder" type="video/hevc" update="true">
-            <Limit name="measured-frame-rate-352x288" range="82-181" />
-            <Limit name="measured-frame-rate-640x360" range="60-132" />
+            <Limit name="measured-frame-rate-352x288" range="229-504" />
+            <Limit name="measured-frame-rate-640x360" range="130-287" />
             <Limit name="measured-frame-rate-720x480" range="55-182" />
             <Limit name="measured-frame-rate-1280x720" range="30-67" />
             <Limit name="measured-frame-rate-1920x1080" range="19-42" />
@@ -237,5 +245,14 @@ limitations under the License.
             <Limit name="measured-frame-rate-1280x720" range="52-114" />
             <Limit name="measured-frame-rate-1920x1080" range="19-43" />
         </MediaCodec>
+        <!-- #ifdef OPLUS_BUG_COMPATIBILITY -->
+        <!-- ziran.deng@MM.MediaServer, 2023/7/11, -->
+        <MediaCodec name="c2.android.av1.decoder" type="video/av01" update="true">
+            <Limit name="measured-frame-rate-352x288" range="101-224" />
+            <Limit name="measured-frame-rate-640x360" range="63-139" />
+            <Limit name="measured-frame-rate-720x480" range="57-125" />
+            <Limit name="measured-frame-rate-1280x720" range="30-65" />
+        </MediaCodec>
+        <!-- #endif //OPLUS_BUG_COMPATIBILITY -->
     </Decoders>
 </MediaCodecs>
