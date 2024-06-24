@@ -62,6 +62,7 @@ android_app_import {
 	name: "CneApp",
 	owner: "oneplus",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
+	required: ["CneApp.libvndfwk_detect_jni.qti_symlink"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -343,5 +344,61 @@ prebuilt_etc_xml {
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	device_specific: true,
+}
+
+install_symlink {
+	name: "libimscamera_jni_libimscamera_jni_symlink64",
+	system_ext_specific: true,
+	installed_location: "priv-app/ims/lib/arm64/libimscamera_jni.so",
+	symlink_target: "/system_ext/lib64/libimscamera_jni.so",
+}
+
+install_symlink {
+	name: "libimsmedia_jni_libimsmedia_jni_symlink64",
+	system_ext_specific: true,
+	installed_location: "priv-app/ims/lib/arm64/libimsmedia_jni.so",
+	symlink_target: "/system_ext/lib64/libimsmedia_jni.so",
+}
+
+install_symlink {
+	name: "libEGL_adreno_libEGL_adreno_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libEGL_adreno.so",
+	symlink_target: "/vendor/lib/egl/libEGL_adreno.so",
+}
+
+install_symlink {
+	name: "libGLESv2_adreno_libGLESv2_adreno_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libGLESv2_adreno.so",
+	symlink_target: "/vendor/lib/egl/libGLESv2_adreno.so",
+}
+
+install_symlink {
+	name: "libq3dtools_adreno_libq3dtools_adreno_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libq3dtools_adreno.so",
+	symlink_target: "/vendor/lib/egl/libq3dtools_adreno.so",
+}
+
+install_symlink {
+	name: "libEGL_adreno_libEGL_adreno_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libEGL_adreno.so",
+	symlink_target: "/vendor/lib64/egl/libEGL_adreno.so",
+}
+
+install_symlink {
+	name: "libGLESv2_adreno_libGLESv2_adreno_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libGLESv2_adreno.so",
+	symlink_target: "/vendor/lib64/egl/libGLESv2_adreno.so",
+}
+
+install_symlink {
+	name: "libq3dtools_adreno_libq3dtools_adreno_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libq3dtools_adreno.so",
+	symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
 }
 
