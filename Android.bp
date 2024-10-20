@@ -24153,56 +24153,56 @@ cc_prebuilt_binary {
 }
 
 install_symlink {
-    name: "system_ext_priv-app_ims_lib_arm64_libimscamera_jni",
+    name: "system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so",
     system_ext_specific: true,
     installed_location: "priv-app/ims/lib/arm64/libimscamera_jni.so",
     symlink_target: "/system_ext/lib64/libimscamera_jni.so",
 }
 
 install_symlink {
-    name: "system_ext_priv-app_ims_lib_arm64_libimsmedia_jni",
+    name: "system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so",
     system_ext_specific: true,
     installed_location: "priv-app/ims/lib/arm64/libimsmedia_jni.so",
     symlink_target: "/system_ext/lib64/libimsmedia_jni.so",
 }
 
 install_symlink {
-    name: "vendor_lib_libEGL_adreno",
+    name: "vendor_lib_libEGL_adreno_so",
     soc_specific: true,
     installed_location: "lib/libEGL_adreno.so",
     symlink_target: "/vendor/lib/egl/libEGL_adreno.so",
 }
 
 install_symlink {
-    name: "vendor_lib_libGLESv2_adreno",
+    name: "vendor_lib_libGLESv2_adreno_so",
     soc_specific: true,
     installed_location: "lib/libGLESv2_adreno.so",
     symlink_target: "/vendor/lib/egl/libGLESv2_adreno.so",
 }
 
 install_symlink {
-    name: "vendor_lib_libq3dtools_adreno",
+    name: "vendor_lib_libq3dtools_adreno_so",
     soc_specific: true,
     installed_location: "lib/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib/egl/libq3dtools_adreno.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_libEGL_adreno",
+    name: "vendor_lib64_libEGL_adreno_so",
     soc_specific: true,
     installed_location: "lib64/libEGL_adreno.so",
     symlink_target: "/vendor/lib64/egl/libEGL_adreno.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_libGLESv2_adreno",
+    name: "vendor_lib64_libGLESv2_adreno_so",
     soc_specific: true,
     installed_location: "lib64/libGLESv2_adreno.so",
     symlink_target: "/vendor/lib64/egl/libGLESv2_adreno.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_libq3dtools_adreno",
+    name: "vendor_lib64_libq3dtools_adreno_so",
     soc_specific: true,
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",

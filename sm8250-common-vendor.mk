@@ -2363,11 +2363,11 @@ PRODUCT_PACKAGES += \
     vl53l1_daemon_main
 
 PRODUCT_PACKAGES += \
-    system_ext_priv-app_ims_lib_arm64_libimscamera_jni \
-    system_ext_priv-app_ims_lib_arm64_libimsmedia_jni \
-    vendor_lib_libEGL_adreno \
-    vendor_lib_libGLESv2_adreno \
-    vendor_lib_libq3dtools_adreno \
-    vendor_lib64_libEGL_adreno \
-    vendor_lib64_libGLESv2_adreno \
-    vendor_lib64_libq3dtools_adreno
+    system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
+    system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
+    vendor_lib_libEGL_adreno_so \
+    vendor_lib_libGLESv2_adreno_so \
+    vendor_lib_libq3dtools_adreno_so \
+    vendor_lib64_libEGL_adreno_so \
+    vendor_lib64_libGLESv2_adreno_so \
+    vendor_lib64_libq3dtools_adreno_so
