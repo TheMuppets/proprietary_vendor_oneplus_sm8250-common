@@ -2035,7 +2035,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
     vendor.oplus.hardware.cammidasservice@1.0 \
-    vendor.oplus.hardware.radio-V2-ndk_platform \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
@@ -2192,7 +2191,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.1 \
     libfastov_dsp \
     vendor.oplus.hardware.orms@1.0 \
-    vendor.oplus.hardware.performance-V1-ndk_platform \
     android.hardware.secure_element@1.0-impl \
     com.qti.stats.pdlib_odm \
     libipebpsstriping_odm \
@@ -2238,13 +2236,9 @@ PRODUCT_PACKAGES += \
     libwvdrmengine \
     sensors.hal.tof \
     vendor.oplus.hardware.appradio@1.0 \
-    vendor.oplus.hardware.cammidasservice-V1-ndk_platform \
-    vendor.oplus.hardware.commondcs-V1-ndk_platform \
     vendor.oplus.hardware.communicationcenter_compat@1.0 \
     vendor.oplus.hardware.ims@1.0 \
-    vendor.oplus.hardware.olc2-V1-ndk_platform \
     vendor.oplus.hardware.oplusSensor@1.0 \
-    vendor.oplus.hardware.osense.client-V1-ndk_platform \
     vendor.oplus.hardware.osense.client@1.0 \
     vendor.oplus.hardware.radio@1.0 \
     vendor.pixelworks.hardware.display@1.0 \
