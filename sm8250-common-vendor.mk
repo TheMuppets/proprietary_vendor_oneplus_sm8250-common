@@ -1860,29 +1860,16 @@ PRODUCT_PACKAGES += \
     libarcsoft_dualcam_bokeh_api \
     libarcsoft_dualcam_refocus_left \
     libarcsoft_dualcam_refocus_preview \
-    libarcsoft_dualcam_refocus_right \
     libarcsoft_dualcam_refocus_uw \
-    libarcsoft_fringe_remove \
-    libarcsoft_hdr_couple_api \
-    libarcsoft_hdr_denoise_api \
-    libarcsoft_hdr_denoise_api_v4 \
     libarcsoft_hdrplus_hvx_stub \
     libarcsoft_high_dynamic_range \
     libarcsoft_high_dynamic_range_couple \
     libarcsoft_high_dynamic_range_v4 \
     libarcsoft_hta \
-    libarcsoft_low_light_hdr \
-    libarcsoft_mfsr_frt \
     libarcsoft_portrait_distortion_correction \
     libarcsoft_portrait_distortion_correction_20801 \
     libarcsoft_smart_denoise \
     libarcsoft_smart_denoise_v4 \
-    libarcsoft_stripe_removal \
-    libarcsoft_super_night_raw \
-    libarcsoft_superportrait \
-    libarcsoft_tricam_calibration \
-    libarcsoft_tricam_verification \
-    libarcsoft_video_fringing_correction \
     libasn1cper \
     libasn1crt \
     libasn1crtx \
